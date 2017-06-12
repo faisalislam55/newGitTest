@@ -5,4 +5,4 @@ node_js: # specify options for your language
 
 
 script:
-- ./abal
+- ./abal.sh
