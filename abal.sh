@@ -7,15 +7,7 @@ then
     read -sp "username: " username
     echo
     echo "ID: $username"
-    #-----------------------
-    echo "enter names: "
-    read -a nam
-    echo "${nam[0]}, ${nam[1]}, ${nam[2]}" 
-    read -p "To whom: " someone
-    greeting='Hi.. $someone'
-    echo $greeting
-    echo $0 $2 $3
-
+    
     #-----------------------
     read -p "filename: " file_name
 
@@ -82,11 +74,20 @@ then
         echo $1
         shift 
     done
+	#----------------
+	dina="tumi"
+	ami=${1-$dina}
+	echo $ami
     
 
 fi
 
 #set -x
-dina="tumi"
-ami=${1-$dina}
-echo $ami
+
+    echo "enter names: "
+    read -a nam
+    echo "${nam[0]}, ${nam[1]}, ${nam[2]}" 
+    read -p "To whom: " someone
+    greeting='Hi.. $someone'
+    echo $greeting
+    echo $0 $2 $3
