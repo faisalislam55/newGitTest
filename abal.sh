@@ -90,5 +90,3 @@ fi
 dina="tumi"
 ami=${1-$dina}
 echo $ami
-
-file /home/fi4034/Bash practice/bsp.sh | wc -l
