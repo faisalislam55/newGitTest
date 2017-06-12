@@ -46,17 +46,7 @@ then
     #echo "${os[0]}"
     #echo "${!os[@]}"
     echo "${#os[@]}" 
-    #---------------
-    n=1
-
-    while (( $n < 4 )) 
-    do  
-        echo number is $n
-        #n=$(( n+1 ))
-        (( n++ ))
-        sleep 1
-        #xterm &
-    done 
+    
     #-------------
     ami=$1
 
@@ -78,11 +68,8 @@ then
 	dina="tumi"
 	ami=${1-$dina}
 	echo $ami
-    
 
-fi
-
-#set -x
+	#----------------------
 
     echo "enter names: "
     read -a nam
@@ -91,3 +78,20 @@ fi
     greeting='Hi.. $someone'
     echo $greeting
     echo $0 $2 $3
+    
+
+fi
+
+#set -x
+
+#---------------
+    n=1
+
+    while (( $n < 4 )) 
+    do  
+        echo number is $n
+        #n=$(( n+1 ))
+        (( n++ ))
+        sleep 1
+        #xterm &
+    done 
