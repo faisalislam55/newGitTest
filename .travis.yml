@@ -6,3 +6,8 @@ node_js: # specify options for your language
 
 script:
 - ./abal.sh
+notifications: # set notification options 
+  hipchat: vogbboHEVJLT1U8oGiZm6rrdB4l9la76VHiOfRh6@3926556
+   # on_success: [always|never|change]
+   #on_failure: [always|never|change]
+ 
