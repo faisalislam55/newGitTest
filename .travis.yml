@@ -5,7 +5,7 @@ node_js: # specify options for your language
 
 
 script:
-- ssh fi4034@rmvm045 'cd data/yocto-proemion-bsp/scripts && ./bsp.sh -f k -d canlink-mobile-7037'
+- ./abal.sh
 
 notifications: # set notification options 
   hipchat: vogbboHEVJLT1U8oGiZm6rrdB4l9la76VHiOfRh6@3926556
