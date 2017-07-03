@@ -94,4 +94,5 @@ fi
         (( n++ ))
         sleep 1
         #xterm &
-    done 
+    done
+   echo "thapai toke beta" 
