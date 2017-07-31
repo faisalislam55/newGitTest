@@ -1,4 +1,4 @@
 echo "abal executed"
 echo "khaja baba2"
 echo "marhaba marhaba"
-echo "le khaja1"
+echo "le khaja2"
