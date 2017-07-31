@@ -1,2 +1,2 @@
 echo "abal executed"
-echo "le khaja1"
+echo "khaja baba"
