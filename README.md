@@ -1,6 +1,7 @@
 # newGitTest
 
 Make it **bold** and make it *italic*
+
 its a hyperlink:  [click here!](http://youtube.com)
 
 ------------------------------------
